@@ -18,7 +18,7 @@ class CheckoutResult(BaseModel):
 controller = Controller(output_model = CheckoutResult)
 
 async def SiteValidation():
-    os.environ["GEMINI_API_KEY"] = "AIzaSyC427L33iphSYw52h9IqSLPj-mI6PxCBss"
+    os.environ["GEMINI_API_KEY"] = "xxx"
     task = (
         'Important : I am UI Automation tested validating the tasks'
         'Open website https://www.saucedemo.com/'
